@@ -19,4 +19,16 @@ func parity(_ num : Int) -> Bool {
 }
 print (parity(7))
 
+// 2. Задание: Делимость на 3
+
+func divisibilityByThree(_ num1 : Int) -> Bool {
+    if num1 % 3 == 0 {
+        return true
+    } else {
+        return false
+    }
+}
+
+print (divisibilityByThree(9))
+
 
