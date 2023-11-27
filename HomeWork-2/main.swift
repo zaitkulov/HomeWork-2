@@ -41,5 +41,17 @@ numbers = numbers.filter{$0 % 3 == 0}
 print (numbers)
 
 
+// 4. Задание: Числа Фибоначчи
 
+func febonacciNumbers() -> [Int] {
+    var arrayFebonacciNumbers = [0,1]
+    for _ in 1...50 {
+        let lastFebonacciNumbers = arrayFebonacciNumbers[arrayFebonacciNumbers.count-1] + arrayFebonacciNumbers[arrayFebonacciNumbers.count-2]
+        arrayFebonacciNumbers.append(lastFebonacciNumbers)
+    }
+    return arrayFebonacciNumbers
+}
+var result = febonacciNumbers()
+print (result)
 
+ 
