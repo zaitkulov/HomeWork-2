@@ -32,3 +32,14 @@ func divisibilityByThree(_ num1 : Int) -> Bool {
 print (divisibilityByThree(9))
 
 
+// 3. Задание: Массив из 100 чисел
+
+var numbers = Array(1...100)
+
+numbers = numbers.filter{$0 % 2 != 0}
+numbers = numbers.filter{$0 % 3 == 0}
+print (numbers)
+
+
+
+
