@@ -102,3 +102,13 @@ func maximumThreeNumbers (num1: Int, num2: Int, num3: Int) -> Int {
 }
 
 print (maximumThreeNumbers(num1: -89, num2: 115, num3: 5))
+
+
+// 9. Задание: Реверс строки
+
+func stringFunc(_ string1: String) -> String {
+    String(string1.reversed())
+}
+print (stringFunc("Шалаш"))
+
+
