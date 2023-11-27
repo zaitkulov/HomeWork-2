@@ -80,3 +80,11 @@ func operation( argA: Int, argB: Int) -> (add: Int, sub: Int, mult: Int, div: In
 print (operation(argA: 5, argB: 7))
 
 
+// 7. Задание: Длина строки
+
+func length(_ string: String) -> Int {
+    string.count
+}
+
+print (length("Artyom"))
+
