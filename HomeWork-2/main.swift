@@ -67,3 +67,16 @@ func factorial(_ n: Int) -> Int {
 print (factorial(9))
 
 
+// 6. Задание: Простой калькулятор
+
+func operation( argA: Int, argB: Int) -> (add: Int, sub: Int, mult: Int, div: Int) {
+    var add = argA + argB
+    var sub = argA - argB
+    var mult = argA * argB
+    var div = argB != 0 ? argA / argB : argB/argA
+    return (add, sub, mult, div)
+}
+
+print (operation(argA: 5, argB: 7))
+
+
