@@ -54,4 +54,16 @@ func febonacciNumbers() -> [Int] {
 var result = febonacciNumbers()
 print (result)
 
- 
+ // 5. Задание: Факториал числа
+
+func factorial(_ n: Int) -> Int {
+    var factorial = 1
+    for i in 1...n {
+        factorial *= i
+    }
+    return factorial
+}
+
+print (factorial(9))
+
+
