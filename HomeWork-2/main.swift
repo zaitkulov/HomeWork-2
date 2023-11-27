@@ -7,5 +7,16 @@
 
 import Foundation
 
-print("Hello, World!")
+
+// 1. Задание: Четность числа
+
+func parity(_ num : Int) -> Bool {
+    if num % 2 == 0 {
+        return true
+    } else {
+        return false
+    }
+}
+print (parity(7))
+
 
