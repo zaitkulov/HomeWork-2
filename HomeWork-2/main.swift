@@ -88,3 +88,17 @@ func length(_ string: String) -> Int {
 
 print (length("Artyom"))
 
+// 8. Задание: Максимум из трех чисел
+
+func maximumThreeNumbers (num1: Int, num2: Int, num3: Int) -> Int {
+    var max = num1
+    if num2 > max {
+        max = num2
+    }
+    if num3 > max {
+        max = num3
+    }
+    return max
+}
+
+print (maximumThreeNumbers(num1: -89, num2: 115, num3: 5))
